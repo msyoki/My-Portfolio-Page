@@ -12,3 +12,14 @@ body {
     font-weight: bold;
     color: white;
 }
+
+#profile{
+    text-align: center;
+}
+
+#intro {
+    background-color:#e86100;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
