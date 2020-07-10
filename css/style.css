@@ -1,3 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#nav {
+    background-color:#5c2e00;
+    color: white;
+    padding:5px;
+}
+
