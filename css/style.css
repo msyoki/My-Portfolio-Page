@@ -28,5 +28,13 @@ body {
     color: white;
     background-color:#5c2e00;
     padding: 10px;
-    clear: both;
 }
+
+#myprojects li{
+    list-style-type: none;
+}
+
+#myprojects a{
+    color: white;
+}
+
