@@ -23,3 +23,10 @@ body {
     text-align: center;
     padding: 10px;
 }
+
+#myprojects {
+    color: white;
+    background-color:#5c2e00;
+    padding: 10px;
+    clear: both;
+}
