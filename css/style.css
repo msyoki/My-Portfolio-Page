@@ -3,6 +3,9 @@ body {
     margin: auto;
 }
 
+span {
+    color:#5c2e00;
+}
 #nav {
     background-color:#5c2e00;
     color: white;
