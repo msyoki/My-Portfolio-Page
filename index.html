@@ -4,63 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Page-Musyoki Mutua</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <div id="container">
-        <div id="nav"> 
-            <h3>| NAVIGATION |</h3>
+        <div class="hero-image">
+            <div class="hero-text">
+                <img class="avatar" src="./images/myphoto.jpg" alt=""> <br><br>
+                <h3 style="font-size:50px">Hi! <br> I am Musyoki Mutua</h3>
+                <h3>And I'm a Web/Sofware Developer</h3>
+            <button type="button" class="btn btn-info">Hire me</button>
+            </div>
+        </div>
 
-            <ul>
-                <li><a class="navlist"href="#profile">Profile</a></li>
-                <li><a class="navlist"href="#background">About Me</a></li>
-                <li><a class="navlist"href="#footer">Contacts</a></li>
-            </ul>
-
-        </div>
-        <div id="profile">
-            <img src="images/Cognivint-Image-20190226192144~2.PNG" alt="An image of Musyoki" height="250" width="180">
-        </div>
-        <div id="intro">
-            <h1>MUSYOKI MUTUA</h1>  
-            <h3><strong>Welcome to </strong><em>my portfolio!</em></h3>
-        </div>
-        <div id="myprojects">
-            <h1>IPs (Indipendent Projects)</h1>
-            <p>These are some of the projects i have had the oportunity to work on in my first week at Moring school as part of the code exercise sessions (some still in WIP)</p> 
-            
-            <ul>
-                <li class="myiplist"><a href="https://msyoki.github.io/my-first-webpage/">my-first-webpage.</a></li>
-                <li class="myiplist"><a href="https://msyoki.github.io/Cookie-Recipe./">Cookie-Recipe.</a></li>
-            </ul>
-
-        </div>
-        <div id="background"></div>
+        <div id="background">
             <h1><span>Background</span></h1>
-            <h3>Education</h3>
+            <h2><span>Education</span></h2>
             <ul>
                 <li>2020-Present  Moringa school.mfpt32</li>
                 <li>2010-2015     Strathmore University.Bcom Degree</li>
                 <li>2005-2009     St.Charles Lwanga High.Kcpe</li>
             </ul>
+            <hr>
             <h3>Licenses & Certifications:</h3>
 
             <ul>
                 <li>Issued April 2015<br>   BA. Business Administration, Minor in Management Science.<br>Bachelors in Commerce,</li>
                 <li>Issued April 2020<br>   Fundamentals of Digital Marketing.<br>Certificate ID: VP9 MZU UC8</li>
             </ul>
-
-            <h1><span>Work Experience</span></h1>
+            <hr>
+            <h2><span>Work Experience</span></h2>
             <h3>2016-2020  Absa Group Kenya.Customer service</h3>
             <h4>Outline:Responding to customer inquiries via phone and written correspondence.</h4>
             <h5>Key Resposnsibilities</h5>
-
+            
             <ul>
                 <li>Documenting all activities for quality and metrics reporting through the CustomerRelationship Management (CRM) application.</li>
                 <li>Establishing and maintaining quality client relationships to ensure responsive client service and enhancement of new business opportunities.</li>
                 <li>Exploring cross-selling and up-selling leads of products to new and existing clients.</li>
             </ul><br>
-
+            <hr>
             <h3>2014-2015  Absa Group Kenya.Human resources Officer</h3>
             <h4>Outline:First point of contact of all Human Resource queries and application screening.</h4>
             <h5>Key Resposnsibilities</h5>
@@ -70,14 +54,15 @@
                 <li>Employee screening and records management</li>
                 <li>Oboarding facilitation via training schedule and policy review.</li>
             </ul>
-
-            <h2><span>Why a class in programming?</span></h2>
+            <hr>
+            <h2><span>Why programming?</span></h2>
             <p>My developing interest in learning programming is more from a point of view of programming
                 as a liberal art,also from my fascination with the rapid progress of technology and it's implications to 
                 the future of the human society,the fact that you can provide solutions to problems via technology 
                 and share a contribution to better other peaples lives sounds like a thrill worth experiencing.
             </p>
-            <h1><span>Hobbies</span></h1>
+            <hr>
+            <h2><span>Hobbies</span></h2>
 
             <ol>
                 <li>Watching movies</li>
@@ -88,6 +73,51 @@
                 <li>Travelling</li>
             </0l>
 
+        </div>
+        <div id="myprojects" >
+            <h1>My Projects:</h1>
+            <div class="row">
+                <div class="column">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/pexels-pixabay-247791 (1).jpg"Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Delani Studio</h5>
+                        <p class="card-text">This is a landing page of a fictional studio built to practice use of Html,CSS ,jQuery , bootstrap, javascript and working with API's..</p>
+                        <a href="#" class="btn btn-primary">Go Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/pexels-pixabay-247791 (1).jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Delani Studio</h5>
+                        <p class="card-text">This is a landing page of a fictional studio built to practice use of Html,CSS ,jQuery , bootstrap, javascript and working with API's..</p>
+                        <a href="#" class="btn btn-primary">Go Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/pexels-pixabay-247791 (1).jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Delani Studio</h5>
+                        <p class="card-text">This is a landing page of a fictional studio built to practice use of Html,CSS ,jQuery , bootstrap, javascript and working with API's..</p>
+                        <a href="#" class="btn btn-primary">Go Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/pexels-pixabay-247791 (1).jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Delani Studio</h5>
+                        <p class="card-text">This is a landing page of a fictional studio built to practice use of Html,CSS ,jQuery , bootstrap, javascript and working with API's..</p>
+                        <a href="#" class="btn btn-primary">Go Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="footer">
             <h1>Contacts</h1>
