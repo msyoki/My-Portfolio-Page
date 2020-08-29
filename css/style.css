@@ -79,6 +79,10 @@ h1 {
     text-align: center;
 
 }
+.card-text{
+    font-size: smaller;
+    height: auto;
+}
 .row {
     color: #222629;
 }    
