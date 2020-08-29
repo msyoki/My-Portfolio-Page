@@ -15,7 +15,7 @@ h2 {
 
 /*  Main Section    */
 .hero-image {
-    background-image: url('../images/mac.jpg');
+    background-image: url('/images/mac.jpg');
     background-color: white;
     height: 750px;
     background-position: center;
