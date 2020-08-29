@@ -1,21 +1,36 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #FEFFFF;
 }
 
+span {
+    color:#17252A;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+/*  Main Section    */
 .hero-image {
-    background-image: url("https://images.pexels.com/photos/698808/pexels-photo-698808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-color: #cccccc;
-    height: 900px;
+    background-image: url('/images/mac.jpg');
+    background-color: white;
+    height: 750px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    clear: both;;
-    opacity:0.9;
+    clear: both;
+    opacity: 0.8;
+    padding: 20px;
+
 
 }
-
+h1 {
+    font-family: 'Tinos', serif;
+}
 
 .hero-text {
     text-align: center;
@@ -31,46 +46,18 @@ body {
 }
 .avatar{
     border-radius: 50%;
-    width: 350px;
-
-}
-
-
-span {
-    color:#17252A;
-    font-weight: bold;
-}
-#nav {
-    background-color:#2B7A78;
-    color: white;
-}
-
-#nav a {
-    font-weight: bold;
-    color: white;
-}
-
-
-
-#intro {
-    background-color:#e86100;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-#myprojects {
-    color: white;
-    background-color:#2B7A78;
+    width: 300px;
     padding: 20px;
-    text-align: center;
-    display: flex;
+    margin-top: 60px;
+    background-blend-mode: overlay;
+
+
 }
 
 
-#myprojects a{
-    color: white;
-}
+
+
+/*  Background    */
 #background {
     padding: 40px;
     text-align: center;
@@ -78,22 +65,34 @@ span {
     
 
 }
+
 #background , ul , ol {
     list-style-type: none;
 }
 
-#footer {
-    background-color:#17252A;
-    padding: 10px;
-    color: white;
-}
-.row{
-    color: black;
-    margin:auto;
+
+/*  Projects Section   */
+#myprojects {
+    color:white;
+    background-color:#474B4F;
+    padding: 40px;
     text-align: center;
+
 }
+.row {
+    color: #222629;
+}    
+    
 .column {
     padding: 0 10px;
-    margin-top: 20px  ;
-    margin-bottom: 10px  ;
+    margin-top: 15px;
+    
+}
+
+
+/*  Footer Section    */
+#footer {
+    background-color:#222629;
+    padding: 40px;
+    color: white;
 }
